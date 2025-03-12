@@ -1,4 +1,3 @@
-## This project is in reduced maintenance / no support mode and I will only release updates for my personal usage from now on. There are too many issues with KernelSU, stock ROMs and everything too far from my personal usecase, and I'd rather use my free time with other projects, so I am not really able (or motivated) to support most cases anymore. If you can, use recovery-based installers, those will always be more reliable and universal.
 
 # microG Installer Revived
 
@@ -7,8 +6,6 @@ This is a Magisk module - originally based on Hieu Van's microG Installer - that
 Currently, GmsCore 0.3.4 (including Companion, previously known as FakeStore) and earlier are supported. GsfProxy 0.1.0 and MapsV1 0.1.0 are bundled in the module.
 
 **Note**: Install this module before installing any GMS-dependent apps, as well as do not disable it after installing such apps, unless you know what you're doing.
-
-There are two copies of this online: The [Magisk alt module repo](https://github.com/Magisk-Modules-Alt-Repo/microG_Installer) and the [personal](https://github.com/nift4/microg_installer) one. The personal one contains the latest development version and is used for pull requests and issues and the Magisk alt repo one is the stable code only.
 
 ## Installation
 **Again, if you have Google services currently installed, DO NOT INSTALL THIS MODULE.**
@@ -47,11 +44,12 @@ Requires wget.
 Download [this](https://raw.githubusercontent.com/topjohnwu/Magisk/master/scripts/module_installer.sh) and put it into `META-INF/com/google/android/update-binary`. And ZIP it.
 
 ### About microGOverlay.apk
-This APK file is an simple overlay containing configuration for UnifiedNlp. The source can not be checked in into this git repository because of compatibility reasons with module repositories, so I posted the trivial source code on [an extra branch](https://github.com/nift4/microg_installer_revived/tree/overlay). You can use any signing keystore to sign the overlay, but it needs to be signed.
+This APK file is an simple overlay containing configuration for UnifiedNlp. The source can not be checked in into this git repository because of compatibility reasons with module repositories, so I posted the trivial source code on [an extra branch](https://github.com/subhashhhhhh/microg_installer_revived/tree/overlay). You can use any signing keystore to sign the overlay, but it needs to be signed.
 
 ## Credits
 
 - **microG project** for their awesome work
+- **nift4** for the [original microG installer revived](https://github.com/nift4/microg_installer_revived)
 - **Hieu Van** for the [original microG Installer](https://github.com/nift4/microg_installer_revived/tree/23de13101d8dd5807f713d0cace4a565478c6cfd)
 - **Fs00** for many bug fixes
 - **chris42** and **FriendlyNeighborhoodShane** for privapp permission files
